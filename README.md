@@ -26,7 +26,7 @@
 [22、Unity3D 金属材质Shader插件](https://github.com/764424567/Unity-plugin/tree/master/22%E3%80%81Unity3D%20%E9%87%91%E5%B1%9E%E6%9D%90%E8%B4%A8Shader%E6%8F%92%E4%BB%B6)
 [23、Unity3D 水流攻击魔法粒子](https://github.com/764424567/Unity-plugin/tree/master/23%E3%80%81Unity3D%20%E6%B0%B4%E6%B5%81%E6%94%BB%E5%87%BB%E9%AD%94%E6%B3%95%E7%B2%92%E5%AD%90)
 [24、Unity3D 简单卡通风格火车资源](https://github.com/764424567/Unity-plugin/tree/master/24%E3%80%81Unity3D%20%E7%AE%80%E5%8D%95%E5%8D%A1%E9%80%9A%E9%A3%8E%E6%A0%BC%E7%81%AB%E8%BD%A6%E8%B5%84%E6%BA%90)
-[25、Unity3D 标准资源包(for Unity 2017.3)]()
+[25、Unity3D 标准资源包(for Unity 2017.3)](https://download.csdn.net/download/q764424567/12267554)
 [26、Unity3D 简单的路径点寻路系统](https://github.com/764424567/Unity-plugin/tree/master/26%E3%80%81Unity3D%20%E7%AE%80%E5%8D%95%E7%9A%84%E8%B7%AF%E5%BE%84%E7%82%B9%E5%AF%BB%E8%B7%AF%E7%B3%BB%E7%BB%9F)
 [27、Unity3D 地形资源](https://github.com/764424567/Unity-plugin/tree/master/27%E3%80%81Unity3D%20%E5%9C%B0%E5%BD%A2%E8%B5%84%E6%BA%90)
 [28、Unity3D VRTK插件SteamVR Unity Toolkit](https://github.com/764424567/Unity-plugin/tree/master/28%E3%80%81Unity3D%20VRTK%E6%8F%92%E4%BB%B6SteamVR%20Unity%20Toolkit)
