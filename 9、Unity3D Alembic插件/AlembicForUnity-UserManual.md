@@ -1,125 +1,98 @@
-# Alembic for Unity
-
-**Latest package: [AlembicForUnity.unitypackage](https://github.com/unity3d-jp/AlembicImporter/releases/download/20180413/AlembicForUnity.unitypackage)**
-**Do not clone this repository unless you are trying to build plugin from source.**
-
-[English](https://translate.google.com/translate?sl=ja&tl=en&u=https://github.com/unity3d-jp/AlembicImporter) (by Google Translate)
-- [Alembic?](#alembic)
-- [Alembic Importer](#alembic-importer)
-- [Alembic Exporter](#alembic-exporter)
-
-## Alembic?
-Alembic は主に映像業界で使われているデータフォーマットで、巨大な頂点キャッシュデータを格納するのに用いられます。  映像業界では、スキニングやダイナミクスなどのシミュレーション結果を全フレームベイクして頂点キャッシュに変換し、それを Alembic に格納してレンダラやコンポジットのソフトウェアに受け渡す、というような使い方がなされます。
-Alembic 本家: http://www.alembic.io/
-
-近年の DCC ツールの多くは Alembic をサポートしており、Alembic のインポートやエクスポートができれば、Unity をレンダリングやコンポジットのツールとして使ったり、Unity で各種シミュレーションを行ってその結果を他の DCC ツールに渡したりといったことができるようになります。ゲームの 3D 録画のような新たな使い方も考えられます。
-本プラグインは Unity で Alembic のインポートとエクスポートを実現します。
+@[toc]
+## 一、前言
+今天分享一下Alembic插件的使用教程，这个插件的主要作用就是将.abc文件导入到Unity，然后进行播放。
+.abc文件主要是影像业界使用的数据格式，用于存储巨大的顶点缓存数据。
+Alembic插件就是转化这些影像资料和动力学等的模拟结果转换为顶点缓存数据为Unity可以使用的文件。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417142130750.png)
+abc文件转化为Unity可以识别的Prefabs文件
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417142155374.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3E3NjQ0MjQ1Njc=,size_16,color_FFFFFF,t_70)
 
 
-Windows (32bit & 64bit)、Mac、Linux と Unity 2017.1 以降で動作を確認済みです。
-使用するにはまずこのパッケージをプロジェクトに import します。
-[AlembicForUnity.unitypackage](https://github.com/unity3d-jp/AlembicImporter/releases/download/20180413/AlembicForUnity.unitypackage)
+## 二、参考网站及下载
+参考网站：
+[Alembic官方网站](http://www.alembic.io/index.html)
+Github地址：
+https://github.com/Unity-Technologies/AlembicForUnity
+UnityPackge包下载链接：
+https://download.csdn.net/download/q764424567/12333549
 
-## Alembic Importer
+## 三、正文
+### abc文件导入
+首先我们要把这个包导入到场景中：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417150502958.png)
+然后我们将.abc动画文件导入到Unity的Assets任意文件夹中，会发现文件导入之后就变成了Unity可识别的prefabs文件：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417150628190.png)
+在StreamingAssets文件夹中会同步生成一个abc格式的文件：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/202004171507497.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3E3NjQ0MjQ1Njc=,size_16,color_FFFFFF,t_70)
+这是因为为了从文件中流传送数据，即使是build后也需要保留abc文件。
 
-![](https://github.com/Unity-Technologies/AlembicForUnity/blob/master/Screenshots/alembic_example.gif)
+### abc导入Unity之后的格式
 
-Alembic ファイルに含まれるノード群を Unity 側で GameObject として再構築、PolyMesh を含むノードは MeshFilter や MeshRenderer も生成し、ファイルからデータをストリーミングして再生します。現在 Camera、PolyMesh、Points の再生に対応しています。
+接着我们看一下导入的abc文件格式：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417150845363.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3E3NjQ0MjQ1Njc=,size_16,color_FFFFFF,t_70)
+- Normals ：是使用.abc文件的法线，这是根据顶点位置来设定计算。默认的“Compute If Missing”是.abc文件如果有法线就使用，没有的话就计算，大部分情况下这样应该没有问题。
+- Tangents：是计算切线的设定。因为abc文件没有切线，所以是计算还是不计算有两种选择。但是，切线的计算需要法线和UV，如果欠缺这些，“Tangents”和“Compute”也不能进行计算。
+虽然默认是有效的，但是切线的计算是麻烦的过程，不需要的情况下可以设置成Compute可以更加高效
+- Camera Aspect Ratio：设置相机的纵横比。是使用abc文件的相机参数，还是使用Unity侧画面的纵横比。
+- Scale Factor：缩放因子，模型的等比例缩放
+- Swap Handedness：将X方向反转，并且四边形分割成三角形时，三角形的排列也会反转。
+- Interpolate Samples：是进行动画片的插值运算的设定。如果这是有效的，Transform、Camera和顶点不变化(=顶点数和索引不变)的Mesh就会得到动画的插值。
 
-パッケージをプロジェクトにインポート後、Assets -> Import New Asset で .abc ファイルを指定すると、対応する prefab が生成されます。
-Project ウィンドウでその prefab を選択することでインポート設定を変更できます。
-![import settings](https://user-images.githubusercontent.com/1488611/35656675-f27445c2-073b-11e8-8365-4060cbff4896.png)
-- "Normals" は .abc ファイルの法線を使うか、頂点位置を元に計算するかを設定します。デフォルトの "Compute If Missing" は .abc ファイルが法線を持っていればそれを使い、なければ計算するもので、ほとんどのケースでこれで問題ないはずです。
+如果Interpolate Samples有效，或者如果abc文件中包含velocity数据，可以将velocity数据传递给着色器。
+Alembic/Standard着色器是在普通的Standard着色器的基础上添加基于上述velocity的motion vector生成的着色器。
+在需要motion vector的情况下会有帮助，比如后期效果的MotionBlur。
 
- - "Tangents" は接線を計算するかの設定です。.abc ファイルは接線を持たないので、計算するかしないかの 2 択になります。ただし、接線の計算には法線と UV が必要で、これらが欠けている場合は "Tangents" が "Compute" でも計算が行われないことに留意ください。
- デフォルトで有効になっていますが、接線の計算は重い処理であり、不要な場合は無効にしておくと再生の高速化が見込めます
+如果你想在自己的整形器中添加motion vector生成功能，可以修改SubShader中usepass " hidden/alembi/c/motionvectors motionvectors "这一行的代码。
+内部的想知道详细情况,请参照alembicmotionvectors.cginc。(因为向第4个UV传递velocity数据，以此为基础计算出1帧前的顶点位置)
 
- - "Camera Aspect Ratio" は、カメラのアスペクト比に .abc ファイルのカメラパラメータを使うか、Unity 側の画面の縦横比を使うかの設定になります
+左边是未加工的，右边是输出motion vector并加上Post Processing Stack的MotionBlur的状态。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417152333889.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3E3NjQ0MjQ1Njc=,size_16,color_FFFFFF,t_70)
 
- - "Swap Handedness", "Swap Face Winding", "Turn Quad Edges" はそれぞれ X 方向を反転するか、ポリゴンの向きを反転するか、四角形ポリゴンを三角形に分割する際に三角形の並びを反転するか、の設定になります
+### AlembicStreamPlayer组件
+由插件生成的prefab有一个叫做AlembicStreamPlayer的组件，它负责播放。
+移动Time参数可以确认Mesh的移动。
+控制Timeline播放动画。
+Vertex Motion Scale是计算velocity时的倍率。
+越大的velocity越大，在后效果MotionBlur中会出现激烈的模糊。
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417153531393.gif)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417153538342.gif)
+代码：
 
- - "Interpolate Samples" はアニメーションの補間を行うかの設定です。これが有効だと、Transform、カメラ、そしてトポロジーが変化しない (= 頂点数とインデックスが不変な) Mesh はアニメーションが補間されるようになります
- - 補間が有効な場合、もしくは .abc ファイルに velocity データが含まれる場合、シェーダに velocity データを渡すことができます。
-パッケージに付属の Alembic/Standard シェーダは、通常の Standard シェーダに上記 velocity による motion vector 生成を追加したシェーダです。ポストエフェクトの MotionBlur など、motion vector を必要とする状況で役立つでしょう。
-   - 独自のシェーダに motion vector 生成機能を加えたい場合、SubShader の中に
-   UsePass "Hidden/Alembic/MotionVectors/MOTIONVECTORS"
-   の一行を足すだけで対応できるはずです。内部的な詳細を知りたい場合、AlembicMotionVectors.cginc を参照ください。(4 番目の UV に velocity データが渡されるので、それを元に 1 フレーム前の頂点位置を算出しています)
+```csharp
+using UnityEngine;
+using UTJ.Alembic;
 
-左は未加工、右は motion vector を出力して [Post Processing Stack](https://github.com/Unity-Technologies/PostProcessing) の MotionBlur をかけた状態
-![velocity](https://user-images.githubusercontent.com/1488611/35801196-c587e75a-0aae-11e8-8eda-da4eae575831.png)
+public class Test_ABC : MonoBehaviour
+{
+    public GameObject m_AbcObjcect;
+    AlembicStreamPlayer m_AlembicSP;
+    float m_TempTime = 0;
+    
+    void Start()
+    {
+    	m_AlembicSP = m_AbcObjcect.GetComponent<AlembicStreamPlayer>();   
+    }
+    void Update()
+    {
+        m_TempTime += Time.deltaTime;
+        m_AlembicSP.currentTime = m_TempTime;
+        if (m_TempTime>3)
+        {
+            m_TempTime = 0;
+        }
+    }
+}
 
-- **Maya の shading group は submesh としてインポートできます**。Maya 側で "Write Face Sets" オプションを有効にしてエクスポートしておく必要があります。このオプションはデフォルトではオフであることにご注意ください。
-  - Maya に限らず、Face Set のエクスポートに対応したツールであればマテリアルの設定が submesh としてインポートできるはずです。
+```
 
-- Maya の vertex color と additional UV set もサポートしています。
-それぞれ Maya 側で "Write Color Sets", "Write UV Sets" オプションを有効にしてエクスポートしておく必要があります。これらもデフォルトではオフになっています。
-  - これらは Maya の拡張であるため、他のツールは対応していない可能性が高いです。
-
-Maya の Alembic エクスポート設定
-![](https://user-images.githubusercontent.com/1488611/35655697-86d367e4-0736-11e8-9d28-0b3cb37fd5f0.png)
-
-
-- インポートによって生成された prefab は AlembicStreamPlayer というコンポーネントを持っており、これが再生を担当します。Time パラメータを動かすと Mesh などが動くのを確認できるでしょう。これを Timeline やスクリプトから制御してアニメーションを再生します。
-Vertex Motion Scale は velocity を算出する際にかける倍率です。大きいほど velocity が大きくなり、ポストエフェクト MotionBlur で激しくブラーがかかるようになります。
-
-- Timeline 用に Alembic Track という専用のトラックが用意されています。(Add -> UTJ.Alembic -> Alembic Track でトラックを追加、Add Alembic Shot Asset Clip でクリップを追加し、alembic オブジェクトを設定)
-![](https://user-images.githubusercontent.com/1488611/35694278-2d6026be-07c4-11e8-98b6-c0b72ff10708.gif)
-
-- .abc ファイルは Assets/StreamingAssets 以下にコピーが作られることに留意ください。これはファイルからデータをストリーミングする都合上、ビルド後も .abc ファイルがそのまま残っている必要があるためです。
-
-## Alembic Exporter
-![](https://github.com/Unity-Technologies/AlembicForUnity/blob/master/Screenshots/AlembicExporter.gif)
-
-Unity のシーン内のジオメトリを Alembic に書き出します。
-MeshRenderer, SkinnedMeshRenderer, ParticleSystem (point cache として出力), Camera の書き出しに対応しており、カスタムハンドラを書けば独自のデータも出力できるようになっています。
-
-
-エクスポートを行うには、AlembicExporter  コンポーネントを適当なオブジェクトに追加します。
-注意すべき点として、**AlembicExporter コンポーネントは追加時に自動的に Batching を無効化します。** 有効なままだと Batching された後の Mesh 群が書き出されてしまい、場合によってはデータが数倍に膨れ上がる上に結果も変わってしまうためです。
-Batching の設定を変えたい場合、設定項目は Edit -> Project Settings -> Player の Rendering 項目の中にあります。
-
-以下は AlembicExporter の各項目の説明です。
-<img align="right" src="Screenshots/AlembicExporter.png">
-- Output Path
-  出力パスを指定します。
-
-- Archive Type
-  Alembic のフォーマットの指定です。大抵は Ogawa のままで問題ないと思われます。
-
-- Time Sampling Type
-  キャプチャの間隔の指定です。
-  Uniform の場合、Alembic 側のフレーム間のインターバルは常に一定 (1 / Frame Rate 秒) になります。そして、Uniform かつ Fix Delta Time 有効でキャプチャを開始した場合した場合、**Time.maxDeltaTime を書き換えて Unity 側もデルタタイムを固定します**。映像制作の場合これは望ましい挙動のはずですが、Time.maxDeltaTime を独自に管理している場合は注意が必要です。
-  Acyclic の場合、Unity 側のデルタタイムがそのまま Alembic 側のフレーム間のインターバルになります。 当然間隔は一定ではなくなりますが、ゲーム進行への影響は最小限になります。主にゲームの 3D 録画を想定したモードです。
-  Start Time は Alembic 側の開始時間です。Frame Rate は Time Sampling Type が Uniform の場合の Alembic 側のフレーム間インターバルになります。
-
-- Xform Type
-  オブジェクトの位置、回転、スケールを個別に記録する (TRS) か行列で記録する (Matrix) かの選択です。TRS のままでほぼ問題ないはずです。
-
-- Swap Handedness
-  有効にすると 右手座標系 / 左手座標系 を入れ変える処理を挟みます。
-  DCC ツールの多くは Unity とは逆の座標系なので、大抵は有効にしておいたほうがいいでしょう。
-
-- Swap Faces
-  面の裏表を反転します。
-
-- Scale
-  単位変換を想定したスケール値で、例えば 0.1 にすると 1/10 サイズに変換して出力します。位置と速度に作用します。
-
-- Scope
-  Entire Scene の場合文字通りシーン内のキャプチャ可能な全オブジェクトをキャプチャします。
-  Current Branch の場合その Alembic Exporter コンポーネントがついている GameObject 以下のツリーのみをキャプチャします。
-
-- Ignore Disabled
-  これが有効な場合、disabled されたオブジェクトはキャプチャ対象コンポーネントであっても除外されます。
-
-- Capture (コンポーネント名)
-  各コンポーネントのキャプチャの有効/無効を指定します。
-
-- Begin /End Capture, One Shot
-  キャプチャを開始 / 停止します。One Shot は現在の 1 フレームだけをキャプチャします。これらはスクリプトから BeginCapture() / EndCapture() / OneShot() を呼ぶことで同機能にアクセスできます。
-
-現状キャプチャ対象オブジェクトはキャプチャ開始時に決定され、途中で増減はしません。なので、オブジェクトの enabled / disabled はキャプチャの途中で変わっても影響しませんし、キャプチャ開始後に生成されたオブジェクトはキャプチャされません。
-キャプチャ途中の対象オブジェクトの削除には注意が必要です。この場合そのオブジェクトのキャプチャは中断されますが、その結果できたサンプル数が不均一な Alembic ファイルはややイレギュラーな状態であり、正しく処理できないソフトウェアもあるかもしれません。避けたほうがいいシチュエーションでしょう。
-
-Alembic 側のノードには名前に "(0000283C)" のような ID が付与されます。これは名前の衝突を避けるための処置です。(Alembic は一つの階層に名前が同じノードが複数あってはいけないルールになっています)
-また、マテリアルは現在全くの未サポートです。
+### AlembicExporter组件
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200417154149204.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3E3NjQ0MjQ1Njc=,size_16,color_FFFFFF,t_70)
+- Output Path：指定输出路径。
+- Archive Type：指定Archive的格式，一般使用Ogawa就可以
+- Xform Type：选择单独记录对象的位置、旋转、标度(TRS)还是矩阵记录(Matrix)。TRS应该没什么问题。
+- Time Sampling Type：指定捕获的间隔。Alembic一帧间隔总是恒定的(1 / Frame Rate秒)。如果设置为Uniform那么就可以在Fix DeltaTime开始俘获，改写Time. maxdeltatime Unity方面也固定Delta时间。
+在不影像制作的情况下，这应该是可取的行为，但是如果是独自管理Time.maxDeltaTime的话，就需要注意了。在Acyclic的情况下，Unity侧的delta时间就那样变成Alembic侧的帧间间隔。当然间隔不是一定的，但是对游戏进行的影响是最小的。主要是设想游戏的3d录像的模式。Start Time是Alembic一侧的开始时间。Frame Rate是Time Sampling类型为Uniform时的Alembic侧的帧间间隔。
+- Swap Handedness：使之有效的话，夹入右手坐标系/左手坐标系改变的处理。很多DCC工具都是与Unity相反的坐标系，所以大部分都是有效的。
+- Swap Faces：反转面的正反面。
+- Scale Factor：缩放因子，缩放模型的比例
+- Scope：捕捉场景内可捕捉的全部对象。目前的Branch只捕获带有Alembic Exporter组件的GameObject以下的树。
