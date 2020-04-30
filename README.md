@@ -33,4 +33,4 @@
 [29、Unity3D 双面材质Shader](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-DoubleShader)    
 [30、Unity3D 游戏场景资源加载进度条](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-LoadingScreens)     
 [31、Unity3D 喷泉粒子Water FX Particle](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-WaterFXParticle)   
-[32、Unity3D 消散特效插件Unity2018版本以上][(https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-Dissipate)
+[32、Unity3D 消散特效插件(Unity2018版本以上)](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-Dissipate)
