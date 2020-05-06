@@ -6,11 +6,11 @@
 > 本代码库是作者小魔龙收集的Unity3D插件，按需下载。如果本仓库能为您提供帮助，请给予支持(关注、点赞、分享)！
 
 
-> 资源不断更新中 欢迎Star! ! :octocat: [](https://github.com/764424567/Unity-plugin/blob/master/Star.png)
+> 资源不断更新中 欢迎Star! ! :octocat: 
 
 <br/>
 <div align="center">
-    <a href="http://www.qq764424567.top/" style="text-decoration:none"><img src="http://q8g7kj21n.bkt.clouddn.com/timg.jpg" width="128px"></a>
+    <a href="http://www.qq764424567.top/" style="text-decoration:none"><img src="http://q8g7kj21n.bkt.clouddn.com/60755.png" width="128px"></a>
 </div>
 <br/>  
 
