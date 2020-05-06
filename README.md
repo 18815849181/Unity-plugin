@@ -17,7 +17,7 @@
 <div align="center">
 <a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/stars/764424567/Unity-plugin?icon=github&color=blue"></a>
 <a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/forks/764424567/Unity-plugin?icon=github&color=blue"></a>
-<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/assets-dl/764424567/Unity-plugin?icon=github&color=green"></a>
+<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/watchers/764424567/Unity-plugin?icon=github&color=green"></a>
 <a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/last-commit/764424567/Unity-plugin?icon=github&color=green"></a>
 </div>
 <br/>
@@ -54,7 +54,7 @@
 | 26  | :izakaya_lantern: | 简单的路径点寻路系统				| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-SimpleWaypointSystem		| [√] |
 | 27  | :umbrella: 		  | 地形资源 						| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-TerrainAssets				| [√] |
 | 28  | :octopus: 		  | VRTK插件SteamVR Unity Toolkit 	| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-VRTK 						| [√] |
-| 29  | :squirrel: 		  | 双面材质Shader					| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-DoubleShader 				| [√] |
+| 29  | :volcano: 		  | 双面材质Shader					| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-DoubleShader 				| [√] |
 | 30  | :octocat: 		  | 游戏场景资源加载进度条 			| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-LoadingScreens				| [√] |
 | 31  | :maple_leaf:	  | 喷泉粒子Water FX Particle		| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-WaterFXParticle			| [√] |
 | 32  | :crystal_ball:	  | 消散特效插件(Unity2018版本以上)	| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-Dissipate 					| [√] |
