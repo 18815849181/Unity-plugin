@@ -1,7 +1,34 @@
-收集的Unity3D插件 按需下载
-资源不断更新中 欢迎Star! ![](https://github.com/764424567/Unity-plugin/blob/master/Star.png)
+# Unity3D | 插件下载
+
+> **作者：** 恬静的小魔龙 ，Unity3D Developer,[:pencil2: 个人开发博客](https://bugstack.cn)，[:trophy: CSDN 博客专家](https://blog.csdn.net/q764424567)
+
+
+> 本代码库是作者小魔龙收集的Unity3D插件，按需下载。如果本仓库能为您提供帮助，请给予支持(关注、点赞、分享)！
+
+
+> 资源不断更新中 欢迎Star! ![](https://github.com/764424567/Unity-plugin/blob/master/Star.png)
+
+<br/>
+<div align="center">
+    <a href="http://www.qq764424567.top/" style="text-decoration:none"><img src="http://q8g7kj21n.bkt.clouddn.com/timg.jpg" width="128px"></a>
+</div>
+<br/>  
+
+<div align="center">
+<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/stars/764424567/Unity-plugin?icon=github&color=4ab8a1"></a>
+<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/forks/764424567/Unity-plugin?icon=github&color=4ab8a1"></a>
+<a href="http://www.qq764424567.top/" target="_blank"><img src="https://bugstack.cn/assets/images/onlinebook.svg"></a>
+<a href="http://q8g7kj21n.bkt.clouddn.com/qrcode_tjdxml_1.jpg?x-oss-process=style/may"><img src="https://itstack.org/_media/wxbugstack.svg"></a>
+</div>
+<br/>
 
 ## 文件目录
+
+|   序号  |   图标  |   资源名称  |   资源下载  |   状态  |
+|   :---:   |   :---:   |   :---    |   :---    |   :---:   |
+| 1 | :volcano: | 更换编辑器皮肤 | https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-Themes | [√] |
+
+
 [1、Unity3D 更换编辑器皮肤](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-Themes)      
 [2、Unity3D AVPro插件](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-AVPro)    
 [3、Unity3D DoTween插件](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-DoTween)   
@@ -34,3 +61,10 @@
 [30、Unity3D 游戏场景资源加载进度条](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-LoadingScreens)     
 [31、Unity3D 喷泉粒子Water FX Particle](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-WaterFXParticle)   
 [32、Unity3D 消散特效插件(Unity2018版本以上)](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-Dissipate)
+[33、Unity3D iTween插件](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-iTweenPath)
+[34、Unity3D 对话插件2.1.2版本(u2018.1.0)](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-DialogueSystem)
+[35、Unity3D 滑动UI菜单](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-SlideUIMenu)
+[36、Unity3D 网格动画AnyPortrait 1.0.3](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-AnyPortrait)
+[37、Unity3D PhotonUnityNetworking(PUN)插件](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-PUN)
+[38、Unity3D 武器拖尾插件](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-WeaponsTail)
+[39、Unity3D UCLA线框Shaderv0.21](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-UCLAWireframeShader)
