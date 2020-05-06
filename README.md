@@ -16,11 +16,11 @@
 
 <div align="center">
 <a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/stars/764424567/Unity-plugin?icon=github&color=blue"></a>
-<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/forks/764424567/Unity-plugin?icon=github&color=cyan"></a>
-<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/watchers/764424567/Unity-plugin?icon=github&color=green"></a>
-<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/commits/764424567/Unity-plugin?icon=github&color=yellow"></a>
-<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/issues/764424567/Unity-plugin?icon=github&color=orange"></a>
-<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/tags/764424567/Unity-plugin?icon=github&color=red"></a>
+<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/forks/764424567/Unity-plugin?icon=airbnb&color=cyan"></a>
+<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/watchers/764424567/Unity-plugin?icon=appveyor&color=green"></a>
+<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/commits/764424567/Unity-plugin?icon=atom&color=yellow"></a>
+<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/issues/764424567/Unity-plugin?icon=awesome&color=orange"></a>
+<a href="https://github.com/764424567/Unity-plugin"><img src="https://badgen.net/github/tags/764424567/Unity-plugin?icon=azure&color=red"></a>
 </div>
 <br/>
 
