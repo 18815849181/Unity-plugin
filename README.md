@@ -24,8 +24,8 @@
 
 ## 文件目录
 
-|序号  |   图标  		  |   资源名称  						|   资源下载  																				|   状态  |
-|:---:|   :---:   		  |   :---    						|   :---    																				|   :---: |
+| 序号 |   图标  		  |   资源名称  						| 资源下载  																						| 状态|
+|:---:|   :---:   		  |   :---    						| :---    																						| :---: |
 | 1   | :volcano: 		  | 更换编辑器皮肤 					| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-Themes 					| [√] |
 | 2   | :sound: 		  | AVPro插件 						| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-AVPro 						| [√] |
 | 3   | :electric_plug:   | DoTween插件 						| https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-DoTween 					| [√] |
