@@ -71,5 +71,6 @@
 | 47  | :loop:     		  | 问答插件						| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-QuizGame_v1.5) 			| [√] 	|					| [×] 	|
 | 48  | :mag:     		  | 问答游戏Demo					| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-QuizMaker) 				| [√] 	|					| [×] 	|
 | 49  | :mag_right:       | UGUI小地图						| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-UGUIMiniMap_v1.3) 		| [√] 	|					| [×] 	|
-| 50  | :loudspeaker:     | 绳子编辑器					| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-UltimateRopeEditor) 		| [√] 	|					| [×] 	|
-| 51  | :loudspeaker:     | uSky插件_v2.0					| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-uSky2.0) 		| [√] 	|					| [×] 	|
+| 50  | :unlock:     	  | 绳子编辑器						| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-UltimateRopeEditor) 	| [√] 	|					| [×] 	|
+| 51  | :low_brightness:  | uSky插件_v2.0					| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-uSky2.0) 				| [√] 	|					| [×] 	|
+| 52  | :electric_plug:   | 多重关卡UI框架					| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-MultiTreeUIFramework) 	| [√] 	|					| [×] 	|
