@@ -1,3 +1,4 @@
 *.js linguist-language=Unity3D
 *.css linguist-language=Unity3D
 *.html linguist-language=Unity3D
+*.ShaderLab linguist-language=Unity3D
