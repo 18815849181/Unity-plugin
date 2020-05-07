@@ -1,4 +1,4 @@
-*.js linguist-language=Unity3D
-*.css linguist-language=Unity3D
-*.html linguist-language=Unity3D
-*.ShaderLab linguist-language=Unity3D
+*.js linguist-language=C#
+*.css linguist-language=C#
+*.html linguist-language=C#
+*.ShaderLab linguist-language=C#
