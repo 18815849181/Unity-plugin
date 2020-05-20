@@ -74,4 +74,3 @@
 | 50  | :unlock:     	  | 绳子编辑器						| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-UltimateRopeEditor) 	| [√] 	|					| [×] 	|
 | 51  | :low_brightness:  | uSky插件_v2.0					| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-uSky2.0) 				| [√] 	|					| [×] 	|
 | 52  | :electric_plug:   | 多重关卡UI框架					| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-MultiTreeUIFramework) 	| [√] 	|					| [×] 	|
-| 53  | :battery:   	  | UI菜单旋转			     		| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-UIMenuRotate) 			| [√] 	|					| [×] 	|
