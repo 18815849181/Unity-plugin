@@ -65,7 +65,7 @@
 | 41  | :mega:     		  | CCG多人连线卡牌游戏开发包		| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-CCGKit) 				| [√] 	|					| [×] 	|
 | 42  | :hourglass:       | DCG水Shader插件					| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-DCGWaterShaders) 		| [√] 	|					| [×] 	|
 | 43  | :alarm_clock:     | ICE生物控制插件					| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-ICECreatureControl) 	| [√] 	|					| [×] 	|
-| 44  | :watch:     	  | KGF小地图系统插件				| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-KGFMapSystem_v2.3) 		| [√] 	|					| [×] 	|
+| 44  | :watch:     	  | KGF小地图系统插件				| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-KGFMapSystem_v2.3) 		| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/78605552)					| [√] 	|
 | 45  | :radio:     	  | 拉伸菜单UI						| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-MenuElastic) 			| [√] 	|					| [×] 	|
 | 46  | :satellite:       | 镜头移动特效插件				| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-PostFXStudio_v1.01) 	| [√] 	|					| [×] 	|
 | 47  | :loop:     		  | 问答插件						| [点击链接](https://github.com/764424567/Unity-plugin/tree/master/Menu/Unity3D-QuizGame_v1.5) 			| [√] 	|					| [×] 	|
