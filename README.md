@@ -81,3 +81,4 @@
 | 57  | :postbox:   	  | 太阳光晕效果资源				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Halo.zip) 										| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/108852199)	| [√] 	|
 | 58  | :bath:   	 	  | Exploder爆炸效果				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Exploder-v1.7.8.unitypackage) 					| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/109674175)	| [√] 	|
 | 59  | :bathtub:   	  | VOXL插件效果				    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/VOXL.unitypackage) 							| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)	| [√] 	|
+| 60  | :shower:   	  	  | Shader编辑器ShaderForge			| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/ShaderForge.unitypackage) 						| [√] 	|					| [x] 	|
