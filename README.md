@@ -81,4 +81,11 @@
 | 57  | :postbox:   	  | 太阳光晕效果资源				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Halo.zip) 										| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/108852199)	| [√] 	|
 | 58  | :bath:   	 	  | Exploder爆炸效果				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Exploder-v1.7.8.unitypackage) 					| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/109674175)	| [√] 	|
 | 59  | :bathtub:   	  | VOXL插件效果				    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/VOXL.unitypackage) 							| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)	| [√] 	|
-| 60  | :shower:   	  	  | Shader编辑器ShaderForge			| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/ShaderForge.unitypackage) 						| [√] 	|					| [x] 	|
+| 60  | :shower:   	  	  | Vuforia插件						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/vuforia.unitypackage) 							| [√] 	|					| [x] 	|
+| 61  | :toilet:   	  	  | 波纹效果Shader					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/wire.zip) 										| [√] 	|					| [x] 	|
+| 62  | :wrench:   	  	  | 划线插件						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Vectrosity.v4.0.2.unitypackage) 				| [√] 	|					| [x] 	|
+| 63  | :nut_and_bolt:    | 录屏插件						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/ShareREC.zip) 									| [√] 	|					| [x] 	|
+| 64  | :hammer:   	  	  | 体积光Volumetric插件			| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Volumetric_Light_Beam_Kit_1.0.unitypackage) 	| [√] 	|					| [x] 	|
+| 65  | :seat:   	  	  | 涂涂乐插件						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/tutule02.zip) 									| [√] 	|					| [x] 	|
+| 66  | :moneybag:   	  | 相机漫游插件					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Camera_Path_Animator.unitypackage) 			| [√] 	|					| [x] 	|
+| 67  | :yen:   	  	  | 分享插件						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/New-Unity-For-ShareSDK-master.zip) 			| [√] 	|					| [x] 	|
