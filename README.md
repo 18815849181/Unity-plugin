@@ -38,7 +38,7 @@
 | 14  | :christmas_tree:  | MVC框架Code Control v1.3		| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/CodeControl-v1.3.unitypackage) 				| [√] 	|					| [×] 	|
 | 15  | :gift:	  		  | 日期选择器插件					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/DatePicker.unitypackage) 						| [√] 	|					| [×] 	|
 | 16  | :bell: 		 	  | 颜色选择器插件					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/ColorPicker.unitypackage) 						| [√] 	|					| [×] 	|
-| 17  | :no_bell:   	  | 爆炸粒子						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Explosive.particle.unitypackage) 				| [√] 	|					| [×] 	|
+| 17  | :no_bell:   	  | 爆炸粒子						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/ExplosiveParticle.unitypackage。) 				| [√] 	|					| [×] 	|
 | 18  | :tanabata_tree:	  | SteamVR插件 					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/SteamVRPlugin.unitypackage) 					| [√] 	|					| [×] 	|
 | 19  | :tada:	 		  | 天空盒子资源 					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Skyboxes.zip)									| [√] 	|					| [×] 	|
 | 20  | :confetti_ball:	  | RuntimeTransformGizmos插件 		| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/RuntimeTransformGizmos.unitypackage)			| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/86243905)	| [√] 	|
