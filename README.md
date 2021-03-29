@@ -41,28 +41,28 @@
 | 17  | :no_bell:   	  | 爆炸粒子						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/ExplosiveParticle.unitypackage。) 				| [√] 	|					| [×] 	|
 | 18  | :tanabata_tree:	  | SteamVR插件 					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/SteamVRPlugin.unitypackage) 					| [√] 	|					| [×] 	|
 | 19  | :tada:	 		  | 天空盒子资源 					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Skyboxes.zip)									| [√] 	|					| [×] 	|
-| 20  | :confetti_ball:	  | RuntimeTransformGizmos插件 		| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/RuntimeTransformGizmos.unitypackage)			| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/86243905)	| [√] 	|
+| 20  | :confetti_ball:	  | RuntimeTransform插件 		    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/RuntimeTransformGizmos.unitypackage)			| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/86243905)	| [√] 	|
 | 21  | :balloon:  		  | TerrainToolkit插件 				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/TerrainToolkit-v1_0_2.unitypackage) 			| [√] 	|					| [×] 	|
 | 22  | :crystal_ball:	  | 金属材质Shader插件 				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/MetalShadersPro.unitypackage) 					| [√] 	|					| [×] 	|
 | 23  | :cd:			  | 水流攻击魔法粒子				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/ShurikenSalvo.unitypackage) 					| [√] 	|					| [×] 	|
 | 24  | :dvd:	 		  | 简单卡通风格火车资源 			| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/SimpleTrainsCartoonAssets-v1.0.unitypackage) 	| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/105437717)	| [√] 	|
-| 25  | :floppy_disk:  	  | 标准资源包(for Unity 2017.3) 	| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/StandardAssetsUnity2017.3.unitypackage) 		| [√] 	|					| [×] 	|
+| 25  | :floppy_disk:  	  | 标准资源包(Unity2017.3) 	    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/StandardAssetsUnity2017.3.unitypackage) 		| [√] 	|					| [×] 	|
 | 26  | :camera: 		  | 简单的路径点寻路系统			| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/SimpleWaypointSystem.unitypackage)				| [√] 	|					| [×] 	|
 | 27  |	:video_camera:	  | 地形资源 						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Terrain+Assets.unitypackage)					| [√] 	|					| [×] 	|
-| 28  | :movie_camera:	  | VRTK插件SteamVR Unity Toolkit 	| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/VRTK.unitypackage) 							| [√] 	|					| [×] 	|
+| 28  | :movie_camera:	  | VRTK插件					 	| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/VRTK.unitypackage) 							| [√] 	|					| [×] 	|
 | 29  | :computer:		  | 双面材质Shader					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/DoubleShader.zip) 								| [√] 	|					| [×] 	|
 | 30  | :tv:		  	  | 游戏场景资源加载进度条 			| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/LoadingLevel-v1.2.unitypackage)				| [√] 	|					| [×] 	|
 | 31  | :iphone:	  	  | 喷泉粒子Water FX Particle		| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/FountainParticles.unitypackage)				| [√] 	|					| [×] 	|
-| 32  | :phone:  		  | 消散特效插件(Unity2018版本以上)	| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/FountainParticles.unitypackage) 				| [√] 	|					| [×] 	|
+| 32  | :phone:  		  | 消散特效插件Unity2018			| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/FountainParticles.unitypackage) 				| [√] 	|					| [×] 	|
 | 33  | :telephone:		  | iTween插件						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/iTweenPath.unitypackage) 						| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/78499606)	| [√] 	|
-| 34  | :pager:			  | 对话插件2.1.2版本(u2018.1.0)	| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/DialogueSystemfor-v2.1.2.unitypackage) 		| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/105515409)	| [√] 	|
+| 34  | :pager:			  | 对话插件2.1.2版本				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/DialogueSystemfor-v2.1.2.unitypackage) 		| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/105515409)	| [√] 	|
 | 35  | :fax:		  	  | 滑动UI菜单 						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/SlideUIMenu.unitypackage) 						| [√] 	|					| [×] 	|
 | 36  | :minidisc:		  | 网格动画AnyPortrait 1.0.3 		| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/AnyPortrait-v1.0.3.unitypackage) 				| [√] 	|					| [×] 	|
-| 37  | :vhs:	      	  | PhotonUnityNetworking(PUN)插件 	| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/PhotonPUN.unitypackage) 						| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/105635556) | [√] 	|
+| 37  | :vhs:	      	  | PUN插件 					    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/PhotonPUN.unitypackage) 						| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/105635556) | [√] 	|
 | 38  | :sound:		      | 武器拖尾插件 					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/PocketRPGWeaponTrails.unitypackage) 			| [√] 	|					| [×] 	|
 | 39  |	:speaker:         | UCLA线框Shader v0.21			| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/UCLAWireframeShader.unitypackage) 				| [√] 	|					| [×] 	|
-| 40  | :mute:            | UI界面系统S-Inventory v1.081	| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/S-Inventory.unitypackage) 						| [√] 	|					| [×] 	|
-| 41  | :mega:     		  | CCG多人连线卡牌游戏开发包		| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/CCGKit.unitypackage) 							| [√] 	|					| [×] 	|
+| 40  | :mute:            | S-Inventory v1.081				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/S-Inventory.unitypackage) 						| [√] 	|					| [×] 	|
+| 41  | :mega:     		  | CCG卡牌游戏开发包				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/CCGKit.unitypackage) 							| [√] 	|					| [×] 	|
 | 42  | :hourglass:       | DCG水Shader插件					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/DCGWaterShaders.unitypackage) 					| [√] 	|					| [×] 	|
 | 43  | :alarm_clock:     | ICE生物控制插件					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/ICECreatureControl.unitypackage) 				| [√] 	|					| [×] 	|
 | 44  | :watch:     	  | KGF小地图系统插件				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/KGFMapSystem-v2.3.unitypackage) 				| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/78605552)	| [√] 	|
@@ -89,4 +89,4 @@
 | 65  | :seat:   	  	  | 涂涂乐插件						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/tutule02.zip) 									| [√] 	|					| [x] 	|
 | 66  | :moneybag:   	  | 相机漫游插件					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Camera_Path_Animator.unitypackage) 			| [√] 	|					| [x] 	|
 | 67  | :yen:   	  	  | 分享插件						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/New-Unity-For-ShareSDK-master.zip) 			| [√] 	|					| [x] 	|
-| 67  | :dollar:   	  	  | A*插件						    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/AstartPro_v3.7.unitypackage) 					| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)	| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)|
+| 68  | :dollar:   	  	  | A*插件						    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/AstartPro_v3.7.unitypackage) 					| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)	| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)|
