@@ -27,7 +27,7 @@
 | 3   | :dolls: | DoTween插件 		                | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/DOTween.zip) 									| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/78630827)	| [√] 	||
 | 4   | :school_satchel: | DoTweenPro插件				  | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/DOTweenPro.unitypackage) 						| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/80367718)	| [√] 	||
 | 5   | :mortar_board: | EasyAR插件 						   | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/EasyAR.zip) 									| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/80583925)	| [√] 	||
-| 6   | :flags: | 自发光光晕插件 					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Glow11.rar) 									| [√] 	|					| [×] 	||
+| 6   | :flags: | Glow11自发光光晕插件 | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Glow11.rar) 									| [√] 	| [点击链接](https://blog.csdn.net/q764424567/article/details/118552113) | [×] 	|[点击链接](../master/Descriptions/Glow.md)|
 | 7   | :fireworks: | NGUI插件			   			   | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/NGUI.unitypackage) 							| [√] 	|					| [×] 	||
 | 8   | :sparkler:| Obi Fluid插件 					    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Obi+Fluid.rar)									| [√] 	|					| [×] 	||
 | 9   | :wind_chime:  | Alembic插件 					     | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/AlembicForUnity.unitypackage)					| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/105577002)	| [√] 	||
