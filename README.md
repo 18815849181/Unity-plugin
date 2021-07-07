@@ -61,7 +61,7 @@
 | 37  | :vhs:| PUN插件 					    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/PhotonPUN.unitypackage) 						| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/105635556) | [√] 	||
 | 38  | :sound:| 武器拖尾插件 					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/PocketRPGWeaponTrails.unitypackage) 			| [√] 	|					| [×] 	||
 | 39  |	:speaker:| UCLA线框Shader v0.21			| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/UCLAWireframeShader.unitypackage) 				| [√] 	|					| [×] 	||
-| 40  | :mute:| S-Inventory v1.081				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/S-Inventory.unitypackage) 						| [√] 	|					| [×] 	||
+| 40  | :mute:| S-Inventory v1.081				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/S-Inventory.unitypackage) 						| [√] 	| [点击链接](https://blog.csdn.net/q764424567/article/details/81708765) | [×] 	||
 | 41  | :mega:| CCG卡牌游戏开发包				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/CCGKit.unitypackage) 							| [√] 	|					| [×] 	||
 | 42  | :hourglass:| DCG水Shader插件					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/DCGWaterShaders.unitypackage) 					| [√] 	|					| [×] 	||
 | 43  | :alarm_clock:| ICE生物控制插件					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/ICECreatureControl.unitypackage) 				| [√] 	|					| [×] 	||
