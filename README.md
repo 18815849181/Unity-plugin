@@ -20,7 +20,7 @@
 
 ## :art: 文件目录 | :bike: 插件下载 | :ferris_wheel: 插件教程分享
 
-| 序号 | 图标 | 资源名称 | 资源下载 | 状态 | 插件教程分享 | 教程状态 | 插件简介 |
+| 序号 | 图标 | 资源名称 | 资源下载 | 状态 | 插件教程分享 | 教程状态 | 插件效果图 |
 |:---:|:---: | :---: | :---: | :---: |:---:| :---: |:---: |
 | 1   | :bamboo: | 更换Unity3D皮肤					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Themes.rar) | [√]|[点击链接](https://blog.csdn.net/q764424567/article/details/86576581)| [√] ||
 | 2   | :gift_heart: | AVPro插件 					  		| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/AVProVideo-v1.9.14.unitypackage) 				| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/80696566)	| [√] 	||
