@@ -90,3 +90,5 @@
 | 66  | :moneybag:   	  | 相机漫游插件					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Camera_Path_Animator.unitypackage) 			| [√] 	|					| [x] 	|
 | 67  | :yen:   	  	  | 分享插件						| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/New-Unity-For-ShareSDK-master.zip) 			| [√] 	|					| [x] 	|
 | 68  | :dollar:   	  	  | A*插件						    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/AstartPro_v3.7.unitypackage) 					| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)	| [√] 	|[点击链接](../master/Menu/Astar.md)|
+| 69  | :dollar:   	  	  | 火焰粒子特效					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/AstartPro_v3.7.unitypackage) 					| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)	| [√] 	|[点击链接](../master/Menu/Astar.md)|
+| 70  | :dollar:   	  	  | Unity3D游戏粒子特效				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/AstartPro_v3.7.unitypackage) 					| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)	| [√] 	|[点击链接](../master/Menu/Astar.md)|
