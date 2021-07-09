@@ -92,3 +92,4 @@
 | 68  | :dollar:| A*插件						    | [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/AstartPro_v3.7.unitypackage) 					| [√] 	|[点击链接](https://blog.csdn.net/q764424567/article/details/102716117)	| [√] 	|[点击链接](../master/Descriptions/Astar.md)|
 | 69  | :pound: | 火焰粒子特效					| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Cartoon.zip) | [√] 	|	| [x] 	|[点击链接](../master/Descriptions/Cartoon.md)|
 | 70  | :euro: | Unity3D游戏粒子特效				| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/Unity3d_Particle.zip) | [√] 	|	| [x] 	||
+| 71 | :credit_card: | 存储插件Easy Save3	| [点击链接](https://github.com/764424567/Unity-plugin/releases/download/3.0/EasySave.unitypackage) |  |	|  ||
